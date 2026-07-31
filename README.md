@@ -1,5 +1,7 @@
 # PA_DRIVER
 
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/0d905b99-ec1d-4bc0-9765-94a125777d88" />
+
 PA_DRIVER is a local behavior-cloning experiment for driving a kart game from screen pixels and keyboard input. It records human gameplay, trains a lightweight CNN policy, and runs the trained model back in the game through keyboard control.
 
 This project is designed for private/local testing rooms. It does not use reinforcement learning, game memory reading, packet interception, or game file modification.
