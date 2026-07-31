@@ -1,0 +1,13 @@
+torch
+torchvision
+gymnasium[box2d]
+swig
+numpy
+opencv-python
+matplotlib
+tqdm
+h5py
+mss
+pynput
+PyYAML
+watchdog

@@ -1,0 +1,38 @@
+image_dir: img
+model_path: runs/party_kart_bc_corrected.pt
+capture_fps: 30.0
+model_fps: 30.0
+match_threshold: 0.82
+step_delay: 1
+
+# Click only after the matched button position is stable for a few frames.
+# create/lock slide in from the left, so they use slower animated settings.
+click_stable_frames: 2
+click_stable_tolerance_px: 6
+click_stable_interval: 0.08
+animated_templates:
+  - start
+  - create
+  - lock
+animated_stable_frames: 6
+animated_stable_tolerance_px: 3
+animated_settle_delay: 0.3
+
+model_crop:
+  left: 0
+  top: 170
+  width: 1920
+  height: 800
+
+# Space is open by default. Set model_no_space: true to disable drift/jump.
+model_no_space: false
+model_space_threshold: 0.55
+model_turn_threshold: 0.65
+model_w_threshold: 0.50
+model_w_release_threshold: 0.40
+model_s_threshold: 0.45
+
+stuck_recovery: true
+stuck_diff_threshold: 1.2
+stuck_seconds: 1.5
+recovery_seconds: 1.1
