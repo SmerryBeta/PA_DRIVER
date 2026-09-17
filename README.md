@@ -337,3 +337,9 @@ The repository can contain code, bat files, config examples, and template images
 ## Disclaimer
 
 This project is for local automation and imitation-learning experiments. Use it only in environments where automation is allowed. The code does not bypass anti-cheat systems and should not be used in public or competitive games without permission.
+
+## Contributor
+
+SmerryBeta: Training data collection & Model trainer & Designer of PA_DRIVER.
+
+ChengXiaoXing(澄小星): Training data collection (but due to its high resolution, it was not collected, but we also appreciate his support)
