@@ -6,6 +6,8 @@ PA_DRIVER is a local behavior-cloning experiment for driving a kart game from sc
 
 This project is designed for private/local testing rooms. It does not use reinforcement learning, game memory reading, packet interception, or game file modification.
 
+<img width="995" height="558" alt="image" src="https://github.com/user-attachments/assets/c6b25733-36d5-4ce5-8fae-1eb3b2169d8d" />
+
 How this model perform? See https://www.bilibili.com/video/BV1jt3M6jEvz/
 
 ## What It Does
