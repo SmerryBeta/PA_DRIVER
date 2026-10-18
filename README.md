@@ -18,6 +18,7 @@ How this model perform? See https://www.bilibili.com/video/BV1jt3M6jEvz/
 - Runs a full app loop with image-template UI automation from `img/*.png`.
 - Hot-reloads runtime settings from `config.yml`.
 - Provides review, trimming, batch-cleaning, and H5 combining tools.
+- 去他妈的快速刷卡丁等级，恶心之极！
 
 ## Current Controls
 
